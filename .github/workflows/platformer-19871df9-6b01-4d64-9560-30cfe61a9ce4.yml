@@ -20,7 +20,7 @@ jobs:
         run : echo ${{ secrets.GCLOUD_SERVICE_KEY }}
         
       - name: Setup GCloud CLI
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        uses: google-github-actions/setup-gcloud@master
         with:
           service_account_key: '${{ secrets.GCLOUD_SERVICE_KEY }}'
           project_id: '${{ secrets.PROJECT_ID }}'
