@@ -2,7 +2,7 @@ name: Platformer Generated wook Build
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on:
